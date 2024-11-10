@@ -1,7 +1,6 @@
-import { createGlobalStyle } from 'styled-components'
-
-import GandhiSansRegular from './fontes/GandhiSans-Regular.otf'
-import GandhiSansBold from './fontes/GandhiSans-Bold.otf'
+import { createGlobalStyle } from "styled-components";
+import GandhiSansRegular from "./fontes/GandhiSans-Regular.otf";
+import GandhiSansBold from "./fontes/GandhiSans-Bold.otf";
 
 const EstilosGlobais = createGlobalStyle`
 @font-face {
@@ -21,6 +20,21 @@ body {
   margin: 0;
   min-height: 100vh;
 }
+
+::-webkit-scrollbar {
+	background-color: #001634;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #C98CF1;
+	border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #001634;;
+	border-radius: 6px;
+}
+
 main {
   display: block;
 }
@@ -156,6 +170,6 @@ template {
 [hidden] {
   display: none;
 }
-`
+`;
 
-export default EstilosGlobais
+export default EstilosGlobais;
