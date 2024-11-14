@@ -22,6 +22,7 @@ body {
 }
 
 ::-webkit-scrollbar {
+  width: 15px;
 	background-color: #001634;
 }
 
