@@ -21,21 +21,6 @@ body {
   min-height: 100vh;
 }
 
-::-webkit-scrollbar {
-  width: 15px;
-	background-color: #001634;
-}
-
-::-webkit-scrollbar-thumb {
-	background-color: #C98CF1;
-	border-radius: 6px;
-}
-
-::-webkit-scrollbar-track {
-	background-color: #001634;;
-	border-radius: 6px;
-}
-
 main {
   display: block;
 }
